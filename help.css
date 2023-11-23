@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    background: black;
+    padding: 20px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: orange;
+}
+
+.hh2 {
+    display: flex;
+    justify-content: center;
+}
+
+.accord {
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+.accord li {
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+
+}
+
+.accord li label {
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: orange;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+label::after {
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.accord .content {
+    background: rgb(146, 146, 243);
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accord input[type="radio"]:checked+label+.content {
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.accord input[type="radio"]:checked+label::after {
+    transform: rotate(135deg);
+}
+
+.footerhead1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: rgb(56, 52, 52);
+    padding: 50px;
+    color: white;
+
+
+}
+
+.downloadapp {
+    display: flex;
+    margin-left: 200px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#logo {
+    width: 22px;
+    height: 22px;
+}
+
+.male {
+    padding: 15px;
+    background: orange;
+    gap: 2px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#enterit {
+    padding: 15px;
+    width: -600px;
+    border-radius: 4px;
+}
+
+.male:hover {
+    background-color: white;
+}
+
+.dbtn {
+    margin-top: 15px;
+    width: 100%;
+
+
+}
+
+.appstore {
+    gap: 5px;
+    background: white;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 0 3px;
+
+}
+
+.appstore a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.appstore:hover {
+    background-color: orange;
+}
+
+.futter {
+    background-color: rgb(165, 163, 163);
+    padding: 30px;
+
+
+}
+
+.footerclass {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.contactus {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contactus a {
+    text-decoration: none;
+    color: black;
+}
+
+.iicony {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 3px;
+
+}
+
+#icony {
+    width: 20px;
+    height: 20px;
+}
+
+.dhead {
+    font-size: medium;
+}

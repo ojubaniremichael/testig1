@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+    width: 22px;
+    height: 22px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(189, 189, 189);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+span {
+    color: orange;
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Iconslogo {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+
+    color: black;
+
+}
+
+.cart {
+    width: 22px;
+    height: 22px;
+}
+
+.input {
+    padding: 6px;
+    width: 350px;
+}
+
+
+
+.btn {
+    padding: 6px;
+    width: 90px;
+    color: black
+}
+
+a {
+    text-decoration: none;
+}
+
+.section1 {
+    padding: 100px;
+    background-color: black;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+}
+
+.blackphone {
+    width: 300px;
+    height: 250px;
+}
+
+
+
+.grids {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.phone {
+    width: 200px;
+    height: 150px;
+}
+
+footer {
+    background-color: rgb(165, 163, 163);
+    padding: 30px;
+
+
+}
+
+.footerclass {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.contactus {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contactus a {
+    text-decoration: none;
+    color: black;
+}
+
+.iicony {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 3px;
+
+}
+
+#icony {
+    width: 20px;
+    height: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+    #logo {
+
+        width: 13px;
+        height: 13px;
+    }
+
+    .top {
+
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .middle {
+
+        padding: 6px;
+
+        font-size: small;
+    }
+
+    header {
+        display: grid;
+        justify-content: space-between;
+
+
+        align-items: center;
+        margin-top: 20px;
+
+    }
+
+
+
+    header h1 {
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+
+
+    .input {
+        padding: 5px;
+        width: 200px
+    }
+
+
+
+    .btn {
+        padding: 5px;
+        width: 50px;
+        font-size: 10px;
+        margin-bottom: 5px;
+
+    }
+
+    .Iconslogo {
+        display: flex;
+        justify-content: space-around;
+
+        align-items: center;
+        gap: 2px;
+
+        color: black;
+        font-size: smaller;
+
+        .cart {
+            width: 12px;
+            height: 12px;
+        }
+
+
+
+        .section1 {
+            padding: 10px;
+            background-color: black;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: larger;
+            color: white;
+        }
+
+        .blackphone {
+            width: 300px;
+            height: 250px;
+        }
+
+
+
+        .grids {
+            margin-top: 5px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .grid1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+
+        }
+
+        .phone {
+            width: 200px;
+            height: 150px;
+        }
+
+        footer {
+            background-color: rgb(165, 163, 163);
+            padding: 30px;
+
+
+        }
+
+        .footerclass {
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: center;
+
+
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        .contactus {
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contactus a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .iicony {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+            margin-bottom: 3px;
+
+        }
+
+        #icony {
+            width: 20px;
+            height: 20px;
+        }
+
+
+    }
